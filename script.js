@@ -15,4 +15,9 @@ function getValuesFromInputs(){
     employee.age = age;
 }
 
+function putValuesIntoDiv(){
+    var values = employee.firstName + " " + employee.lastName + " " + employee.age;
+    document.getElementById("rightDiv").innerHTML = values;
+}
+
 
