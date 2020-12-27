@@ -1,0 +1,23 @@
+#container
+{
+    width: 1000px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(190, 190, 190);
+    font-size: 30px;
+}
+
+#leftDiv
+{
+width: 500px;
+height: 700px;
+text-align: center;
+}
+
+#rightDiv
+{
+width: 500px;
+height: 700px;
+text-align: center;
+}
