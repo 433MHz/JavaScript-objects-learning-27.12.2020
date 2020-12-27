@@ -21,3 +21,18 @@ width: 500px;
 height: 700px;
 text-align: center;
 }
+
+input
+{
+    width: 400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+input[type = "submit"]:hover
+{
+    cursor: pointer;
+}
