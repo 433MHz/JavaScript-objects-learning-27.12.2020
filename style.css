@@ -10,16 +10,18 @@
 
 #leftDiv
 {
-width: 500px;
-height: 700px;
-text-align: center;
+    float: left;
+    width: 500px;
+    height: 700px;
+    text-align: center;
 }
 
 #rightDiv
 {
-width: 500px;
-height: 700px;
-text-align: center;
+    float: left;
+    width: 500px;
+    height: 700px;
+    text-align: center;
 }
 
 input
@@ -35,4 +37,9 @@ input
 input[type = "submit"]:hover
 {
     cursor: pointer;
+}
+
+input:first-child
+{
+    margin-top: 100px;
 }
